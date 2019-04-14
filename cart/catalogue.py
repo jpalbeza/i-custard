@@ -1,0 +1,12 @@
+products = {"ipd": {"sku": "ipd",
+                    "label": "Super iPad",
+                    "price": 549.99},
+            "mbp": {"sku": "mbp",
+                    "label": "MacBook Pro",
+                    "price": 1399.99},
+            "atv": {"sku": "atv",
+                    "label": "Apple TV",
+                    "price": 109.50},
+            "vga": {"sku": "vga",
+                    "label": "VGA adapter",
+                    "price": 30.00}}
