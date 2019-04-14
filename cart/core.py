@@ -19,3 +19,11 @@ def get_total_price(cart_items):
         total_price += item["price"] + sub_items_total
 
     return total_price
+
+
+def checkout(cart_items):
+    promos.tag_with_promos(cart_items)
+    promos.apply_promos(cart_items)
+
+    return {"cart-items": cart_items,
+            "total-price": get_total_price(cart_items)}
